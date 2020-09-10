@@ -1,4 +1,6 @@
-# JavaScript Guitar Amp and Plugins. Plug your guitar on the browser!
+# JavaScript Guitar Amp and Plugins. 🎸 
+
+## Plug your guitar on the browser!
 
 # Usage
 
