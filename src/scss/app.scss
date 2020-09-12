@@ -1,6 +1,6 @@
 @import 'card';
 
-$primary-color: slateblue;
+$primary-color: #817c7c;
 
 * {
 	box-sizing: border-box;
@@ -11,6 +11,7 @@ $primary-color: slateblue;
 body {
 	font-family: Arial, Helvetica, sans-serif;
 	background: $primary-color;
+	background-image: url('https://www.onlygfx.com/wp-content/uploads/2020/07/dust-overlay-3.png');
 	color: #fff;
 	line-height: 1.5;
 }
@@ -31,10 +32,157 @@ ul {
 	height: 100vh;
 }
 
+.knobs-container {
+	background: #181818;
+	margin-top: -130px; 
+	padding: 30px;
+	width: 59em;
+	height: 5em;
+	border-radius: 3px;
+	border: solid .25em darken(#181818, 4%);
+}
+
 header {
 	text-align: center;
 	margin-bottom: 40px;
-	background: rgba(0, 0, 0, 0.3);
+	background:	#202020 0%;
+	background-image: url('https://www.onlygfx.com/wp-content/uploads/2020/07/dust-overlay-3.png');
 	padding: 30px;
-	border-bottom: 5px #fff solid;
+	height: 25em;
+	width: 60em;
+	border-radius: 5px;
+	border-bottom: solid 100px darken(#181818, 4%);
+	box-shadow: 
+	0 .5em .65em 0 rgba(0,0,0,.3);
+
+	h1 {
+		font-family: Origin, Helvetica Light, sans-serif;
+	text-transform: uppercase;
+	font-size: 4rem;
+	color: rgb(255,242,181);
+	background-image: linear-gradient(rgb(255,242,181) 28%, 
+		rgb(77,77,77) 40%,
+		rgb(255,242,181) 54%);
+	text-align: center;
+	-webkit-background-clip:text;
+	-webkit-text-fill-color: transparent;
+	letter-spacing: .5rem;
+	}
+
+	#speaker1{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		background: -webkit-radial-gradient(center, ellipse cover,
+		#494949 0%,
+			
+		#727272 40%,
+		#494949 41%,
+		#727272 43%,
+			
+		#727272 45%,
+		#494949 46%,
+		#727272 48%,
+	
+		#727272 50%,
+		#494949 51%,
+		#727272 53%,
+	
+		#727272 55%,
+		#494949 56%,
+		#727272 58%,
+	
+		#727272 60%,
+		#494949 61%,
+		#727272 63%,
+	
+		#494949 100%)
+	;
+			-webkit-box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px,    /* border */  
+													inset hsla(0,0%,15%, .8) 0 -1px 5px 4px,    /* soft SD */  
+													inset hsla(0,0%,0%, .25) 0 -1px 0px 7px,    /* bottom SD */  
+													inset hsla(0,0%,100%,.7) 0  2px 1px 7px,    /* top HL */  
+		
+																hsla(0,0%, 0%,.15) 0 -5px 6px 4px,    /* outer SD */  
+																hsla(0,0%,100%,.5) 0  5px 6px 4px;    /* outer HL */ 
+		
+		position: fixed;
+		top: 45%;
+		left: 30%;
+		margin-left: -100px;
+		margin-top: -100px;
+		// -webkit-animation: speakeasy 0.4s; /* Safari and Chrome */
+		// -webkit-animation-iteration-count: infinite;
+		
+		
+	}
+
+	#speaker2{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		background: -webkit-radial-gradient(center, ellipse cover,
+		#494949 0%,
+			
+		#727272 40%,
+		#494949 41%,
+		#727272 43%,
+			
+		#727272 45%,
+		#494949 46%,
+		#727272 48%,
+	
+		#727272 50%,
+		#494949 51%,
+		#727272 53%,
+	
+		#727272 55%,
+		#494949 56%,
+		#727272 58%,
+	
+		#727272 60%,
+		#494949 61%,
+		#727272 63%,
+	
+		#494949 100%)
+	;
+			-webkit-box-shadow: inset hsla(0,0%,15%,  1) 0  0px 0px 4px,    /* border */  
+													inset hsla(0,0%,15%, .8) 0 -1px 5px 4px,    /* soft SD */  
+													inset hsla(0,0%,0%, .25) 0 -1px 0px 7px,    /* bottom SD */  
+													inset hsla(0,0%,100%,.7) 0  2px 1px 7px,    /* top HL */  
+		
+																hsla(0,0%, 0%,.15) 0 -5px 6px 4px,    /* outer SD */  
+																hsla(0,0%,100%,.5) 0  5px 6px 4px;    /* outer HL */ 
+		
+		position: fixed;
+		top: 45%;
+		left: 70%;
+		margin-left: -100px;
+		margin-top: -100px;
+		// -webkit-animation: speakeasy 0.4s; /* Safari and Chrome */
+		// -webkit-animation-iteration-count: infinite;
+		
+		
+	}
+	
+	#cone{
+		background: -webkit-radial-gradient(center, ellipse cover, #494949 0%,#2b2b2b 100%);
+		box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(0, 0, 0, 0.7);
+		width: 50px;
+		height: 50px;
+		border-radius: 100%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -25px;
+		margin-top: -25px;
+	}
+	
+	@-webkit-keyframes speakeasy /* Safari and Chrome */
+	{
+		0%   {-webkit-transform: scale(1.0);}
+		20%  {-webkit-transform: scale(1.075);}
+		100%  {-webkit-transform: scale(1.0);}
+	}
 }
+

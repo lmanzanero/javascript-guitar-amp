@@ -1,0 +1,124 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #817c7c;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2020/07/dust-overlay-3.png");
+  color: #fff;
+  line-height: 1.5;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.knobs-container {
+  background: #181818;
+  margin-top: -130px;
+  padding: 30px;
+  width: 59em;
+  height: 5em;
+  border-radius: 3px;
+  border: solid 0.25em #0e0e0e;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  background: #202020 0%;
+  background-image: url("https://www.onlygfx.com/wp-content/uploads/2020/07/dust-overlay-3.png");
+  padding: 30px;
+  height: 25em;
+  width: 60em;
+  border-radius: 5px;
+  border-bottom: solid 100px #0e0e0e;
+  box-shadow: 0 0.5em 0.65em 0 rgba(0, 0, 0, 0.3);
+}
+header h1 {
+  font-family: Origin, Helvetica Light, sans-serif;
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: #fff2b5;
+  background-image: linear-gradient(#fff2b5 28%, #4d4d4d 40%, #fff2b5 54%);
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  letter-spacing: 0.5rem;
+}
+header #speaker1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: -webkit-radial-gradient(center, ellipse cover, #494949 0%, #727272 40%, #494949 41%, #727272 43%, #727272 45%, #494949 46%, #727272 48%, #727272 50%, #494949 51%, #727272 53%, #727272 55%, #494949 56%, #727272 58%, #727272 60%, #494949 61%, #727272 63%, #494949 100%);
+  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  /* outer HL */
+  position: fixed;
+  top: 45%;
+  left: 30%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+header #speaker2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background: -webkit-radial-gradient(center, ellipse cover, #494949 0%, #727272 40%, #494949 41%, #727272 43%, #727272 45%, #494949 46%, #727272 48%, #727272 50%, #494949 51%, #727272 53%, #727272 55%, #494949 56%, #727272 58%, #727272 60%, #494949 61%, #727272 63%, #494949 100%);
+  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  /* outer HL */
+  position: fixed;
+  top: 45%;
+  left: 70%;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+header #cone {
+  background: -webkit-radial-gradient(center, ellipse cover, #494949 0%, #2b2b2b 100%);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.8), 0 0 1px 1px rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+@-webkit-keyframes speakeasy /* Safari and Chrome */ {
+  0% {
+    -webkit-transform: scale(1);
+  }
+  20% {
+    -webkit-transform: scale(1.075);
+  }
+  100% {
+    -webkit-transform: scale(1);
+  }
+}
+
+/*# sourceMappingURL=/app.3525348d.css.map */

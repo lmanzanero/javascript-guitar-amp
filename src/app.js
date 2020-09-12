@@ -1,11 +1,15 @@
 import Header from './components/Header'
 import User from './components/User'
+import Knob from './components/Knob'
 
 async function App() {
   const template = document.createElement('template')
   template.innerHTML = `
     <div class="container">
       ${Header()}
+      <div class="knobs-container">
+        ${Knob()}
+      </div>
       ${await User()}
     </div>
   `
