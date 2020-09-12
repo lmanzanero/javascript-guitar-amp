@@ -16,7 +16,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #817c7c;
+  background: #3d574b;
   background-image: url("https://www.onlygfx.com/wp-content/uploads/2020/07/dust-overlay-3.png");
   color: #fff;
   line-height: 1.5;
@@ -76,7 +76,7 @@ header #speaker1 {
   height: 200px;
   border-radius: 100%;
   background: -webkit-radial-gradient(center, ellipse cover, #494949 0%, #727272 40%, #494949 41%, #727272 43%, #727272 45%, #494949 46%, #727272 48%, #727272 50%, #494949 51%, #727272 53%, #727272 55%, #494949 56%, #727272 58%, #727272 60%, #494949 61%, #727272 63%, #494949 100%);
-  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(43, 42, 42, 0.5) 0 5px 6px 4px;
   /* outer HL */
   position: fixed;
   top: 45%;
@@ -89,7 +89,7 @@ header #speaker2 {
   height: 200px;
   border-radius: 100%;
   background: -webkit-radial-gradient(center, ellipse cover, #494949 0%, #727272 40%, #494949 41%, #727272 43%, #727272 45%, #494949 46%, #727272 48%, #727272 50%, #494949 51%, #727272 53%, #727272 55%, #494949 56%, #727272 58%, #727272 60%, #494949 61%, #727272 63%, #494949 100%);
-  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(255, 255, 255, 0.5) 0 5px 6px 4px;
+  -webkit-box-shadow: inset #262626 0 0px 0px 4px, inset rgba(38, 38, 38, 0.8) 0 -1px 5px 4px, inset rgba(0, 0, 0, 0.25) 0 -1px 0px 7px, inset rgba(255, 255, 255, 0.7) 0 2px 1px 7px, rgba(0, 0, 0, 0.15) 0 -5px 6px 4px, rgba(43, 42, 42, 0.5) 0 5px 6px 4px;
   /* outer HL */
   position: fixed;
   top: 45%;

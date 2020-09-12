@@ -1,6 +1,6 @@
 @import 'card';
 
-$primary-color: #817c7c;
+$primary-color: rgb(61, 87, 75);
 
 * {
 	box-sizing: border-box;
@@ -104,7 +104,7 @@ header {
 													inset hsla(0,0%,100%,.7) 0  2px 1px 7px,    /* top HL */  
 		
 																hsla(0,0%, 0%,.15) 0 -5px 6px 4px,    /* outer SD */  
-																hsla(0,0%,100%,.5) 0  5px 6px 4px;    /* outer HL */ 
+																rgba(43, 42, 42, 0.5) 0  5px 6px 4px;    /* outer HL */ 
 		
 		position: fixed;
 		top: 45%;
@@ -152,7 +152,7 @@ header {
 													inset hsla(0,0%,100%,.7) 0  2px 1px 7px,    /* top HL */  
 		
 																hsla(0,0%, 0%,.15) 0 -5px 6px 4px,    /* outer SD */  
-																hsla(0,0%,100%,.5) 0  5px 6px 4px;    /* outer HL */ 
+																rgba(43, 42, 42, 0.5) 0  5px 6px 4px;    /* outer HL */ 
 		
 		position: fixed;
 		top: 45%;
