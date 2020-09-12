@@ -1,6 +1,6 @@
 # JavaScript Guitar Amp and Plugins. 🎸 
 
-## Plug your guitar on the browser!
+[See Live Demo](https://lmanzanero.github.io/javascript-guitar-amp/);
 
 # Usage
 
