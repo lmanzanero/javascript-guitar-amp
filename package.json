@@ -1,7 +1,7 @@
 {
-  "name": "vanilla-parcel-boilerplate",
+  "name": "javascript-guitar-amp",
   "version": "1.0.0",
-  "description": "Simple workflow starter for building vanilla JS apps",
+  "description": "Pure Vanilla Javascript guitar amplifier",
   "main": "index.js",
   "scripts": {
     "dev": "npm run clean && parcel public/index.html --out-dir development -p 3000",
@@ -17,7 +17,7 @@
   "keywords": [
     "parcel"
   ],
-  "author": "Brad Traversy",
+  "author": "Luis Manzanero",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/lmanzanero/javascript-guitar-amp.git/issues"
