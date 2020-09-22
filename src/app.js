@@ -8,7 +8,7 @@ async function App() {
     <div class="container">
       ${Header()}
       <div class="knobs-container">
-        ${Knob()}
+       ${Knob()}
       </div>
       ${await User()}
     </div>

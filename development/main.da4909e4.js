@@ -2276,7 +2276,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var Header = function Header() {
-  var template = "\n    <header>\n      <h1>JS Tone</h1>\n        <div id=\"speaker1\">\n         <div id=\"cone\">\n        \n          </div>\n         </div>\n         <div id=\"speaker2\">\n         <div id=\"cone\">\n        \n          </div>\n         </div>\n    </header>\n  ";
+  var template = "\n    <header>\n      <h1>JS Tone</h1>\n        <div class=\"speakers\">\n          <div id=\"speaker1\">\n          <div id=\"cone\">\n          \n            </div>\n          </div>\n          <div id=\"speaker2\">\n          <div id=\"cone\">\n          \n            </div>\n          </div>\n        </div>\n    </header>\n  ";
   return template;
 };
 
@@ -4133,7 +4133,7 @@ function _App() {
         switch (_context.prev = _context.next) {
           case 0:
             template = document.createElement('template');
-            _context.t0 = "\n    <div class=\"container\">\n      ".concat((0, _Header.default)(), "\n      <div class=\"knobs-container\">\n        ").concat((0, _Knob.default)(), "\n      </div>\n      ");
+            _context.t0 = "\n    <div class=\"container\">\n      ".concat((0, _Header.default)(), "\n      <div class=\"knobs-container\">\n       ").concat((0, _Knob.default)(), "\n      </div>\n      ");
             _context.next = 4;
             return (0, _User.default)();
 
@@ -4223,7 +4223,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50300" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "52102" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
